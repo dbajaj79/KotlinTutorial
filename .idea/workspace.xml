@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fb48d98-654e-423e-b578-aaedd932d81b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter3/EqualityOperatorinString.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter3/ReferencalEquality.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/META-INF/KotlinTutorial.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTutorial/META-INF/KotlinTutorial.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/DifferentTypesofStringInKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/ReferencalEquality.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/ReferencalEquality.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter3/ReferencalEquality.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="164">
+              <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter3/DifferentTypesofStringInKotlin.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -121,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/chapter2/StringInterploation.kt" />
         <option value="$PROJECT_DIR$/src/chapter3/EqualityOperatorinString.kt" />
         <option value="$PROJECT_DIR$/src/chapter3/ReferencalEquality.kt" />
+        <option value="$PROJECT_DIR$/src/chapter3/DifferentTypesofStringInKotlin.kt" />
       </list>
     </option>
   </component>
@@ -162,7 +170,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561447782442" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561449041911" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -176,20 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.chapter3.ReferencalEqualityKt">
-    <configuration name="chapter2.RetunTypeUnitisOptionalKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinTutorial" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter2.RetunTypeUnitisOptionalKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.chapter3.DifferentTypesofStringInKotlinKt">
     <configuration name="chapter2.SingleExpressionFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTutorial" />
       <option name="VM_PARAMETERS" />
@@ -211,6 +206,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="chapter2.StringInterploationKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chapter3.DifferentTypesofStringInKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinTutorial" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chapter3.DifferentTypesofStringInKotlinKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.chapter3.DifferentTypesofStringInKotlinKt" />
         <item itemvalue="Kotlin.chapter3.ReferencalEqualityKt" />
         <item itemvalue="Kotlin.chapter3.EqualityOperatorinStringKt" />
         <item itemvalue="Kotlin.chapter2.StringInterploationKt" />
         <item itemvalue="Kotlin.chapter2.SingleExpressionFunctionKt" />
-        <item itemvalue="Kotlin.chapter2.RetunTypeUnitisOptionalKt" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +282,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24975514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24975514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.3295711" />
@@ -282,7 +290,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3295711" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295711" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295711" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -359,8 +367,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/ReferencalEquality.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="164">
+          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/DifferentTypesofStringInKotlin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>

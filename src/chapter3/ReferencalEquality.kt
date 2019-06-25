@@ -9,7 +9,10 @@ fun main() {
     checkReferencEQuality(string1!!,string2!!,string3!!)
 
 }
-
+/*
+* This Method is Check the Working of Reference  equality operator(===)of Two String using
+*
+* */
 fun checkReferencEQuality(string1:String,string2:String,string3:String)
 {
     println("String1 and String 2=${string1==string2}")
