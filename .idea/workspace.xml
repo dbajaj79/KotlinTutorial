@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fb48d98-654e-423e-b578-aaedd932d81b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter1/HelloWorldObject.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/HelloWorldWithCampanion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/HelloWorldWithCampanion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter1/ReadInputFromCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter1/HelloWorldObject.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter1/ReadInputFromCommand.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -59,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/chapter1/SimpleHelloWorld.kt" />
         <option value="$PROJECT_DIR$/src/chapter1/HelloWorldWithCampanion.kt" />
         <option value="$PROJECT_DIR$/src/chapter1/HelloWorldObject.kt" />
+        <option value="$PROJECT_DIR$/src/chapter1/ReadInputFromCommand.kt" />
       </list>
     </option>
   </component>
@@ -100,7 +110,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561442469198" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561442915127" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -114,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.chapter1.HelloWorldObject">
+  <component name="RunManager" selected="Kotlin.chapter1.ReadInputFromCommandKt">
     <configuration name="chapter1.HelloWorldObject" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTutorial" />
       <option name="VM_PARAMETERS" />
@@ -141,6 +151,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="chapter1.ReadInputFromCommandKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinTutorial" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.ReadInputFromCommandKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="chapter1.SimpleHelloWorldKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTutorial" />
       <option name="VM_PARAMETERS" />
@@ -156,6 +179,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.chapter1.ReadInputFromCommandKt" />
         <item itemvalue="Kotlin.chapter1.HelloWorldObject" />
         <item itemvalue="Kotlin.chapter1.HelloWorldWithCampanion" />
         <item itemvalue="Kotlin.chapter1.SimpleHelloWorldKt" />
@@ -225,7 +249,14 @@
     <entry file="file://$PROJECT_DIR$/src/chapter1/HelloWorldObject.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/ReadInputFromCommand.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
