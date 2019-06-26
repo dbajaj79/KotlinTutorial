@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fb48d98-654e-423e-b578-aaedd932d81b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/chapter4/ArrayExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter4/ArrayExtension.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter4/ArrayCompontent.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter3/ReferencalEquality.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter3/DifferentTypesofStringInKotlin.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,11 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter4/ArrayExtension.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="130">
+              <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter4/ArrayCompontent.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -140,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/chapter4/ArrayWithClauser.kt" />
         <option value="$PROJECT_DIR$/src/chapter4/IteratorOverArray.kt" />
         <option value="$PROJECT_DIR$/src/chapter4/ArrayExtension.kt" />
+        <option value="$PROJECT_DIR$/src/chapter4/ArrayCompontent.kt" />
       </list>
     </option>
   </component>
@@ -196,7 +197,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.chapter4.ArrayExtensionKt">
+  <component name="RunManager" selected="Kotlin.chapter4.ArrayCompontentKt">
+    <configuration name="chapter4.ArrayCompontentKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinTutorial" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chapter4.ArrayCompontentKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="chapter4.ArrayExtensionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinTutorial" />
       <option name="VM_PARAMETERS" />
@@ -249,26 +263,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter4.PrimitiveTypeArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinTutorial" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter4.PrimitiveTypeArrayKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.chapter4.ArrayCompontentKt" />
         <item itemvalue="Kotlin.chapter4.ArrayExtensionKt" />
         <item itemvalue="Kotlin.chapter4.IteratorOverArrayKt" />
         <item itemvalue="Kotlin.chapter4.ArrayWithClauserKt" />
         <item itemvalue="Kotlin.chapter4.ArrayWithGetAndSetMethodKt" />
-        <item itemvalue="Kotlin.chapter4.PrimitiveTypeArrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +290,7 @@
     <frame x="-7" y="-7" width="1081" height="575" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26444662" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26444662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -303,7 +304,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295711" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3295711" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295711" />
@@ -447,8 +448,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter4/ArrayExtension.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="130">
+          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4/ArrayCompontent.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
