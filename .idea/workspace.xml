@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fb48d98-654e-423e-b578-aaedd932d81b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter4/ArrayExtension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinTutorial/META-INF/KotlinTutorial.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTutorial/META-INF/KotlinTutorial.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/ArrayExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter4/ArrayExtension.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter4/ArrayExtension.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="153">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -449,8 +447,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter4/ArrayExtension.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
