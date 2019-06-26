@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fb48d98-654e-423e-b578-aaedd932d81b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter4/ArrayCompontent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter4/ArrayCompontent.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="221">
+              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -166,12 +166,6 @@
               <item name="KotlinNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="KotlinTutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KotlinNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KotlinTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,7 +282,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1081" height="575" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26444662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -455,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter4/ArrayCompontent.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        <state relative-caret-position="221">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
