@@ -9,6 +9,7 @@ fun main()
     lastExtension()
     sortExtension()
     sortDesendingExtension()
+    reversExtension()
 }
 fun averageExtension()
 {
@@ -71,6 +72,23 @@ fun firstExtension()
     println("First Element  of double Array ${doubleArray.first()}")
     println("First Element  of byte Array ${byteArray.first()}")
 
+
+}
+
+fun reversExtension()
+{
+    val genericArray = arrayOf("Hello","Sandeep","Pardeep","Kuldeep","Money","Sunny","Chirag","Gagandeep")
+    println("Array  Before Reverse")
+    for (i in genericArray)
+    {
+        print("\t$i\t")
+    }
+    println(" ")
+    println("Array After Reverse")
+    for(i in genericArray.reversedArray())
+    {
+        print("\t$i\t")
+    }
 
 }
 fun sortExtension()
