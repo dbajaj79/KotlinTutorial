@@ -6,8 +6,8 @@ fun main() {
 
 fun createEmptyArray():Array<String>
 {
-    var emptyArray = emptyArray<String>()
-    val names = Array<String>(size = 5,init = {index-> "Item${index*5}"})
+    var emptyArray: Array<String>
+    val names = Array(size = 5,init = { index-> "Item${index*5}"})
     emptyArray = names
     for(i in emptyArray)
     {
